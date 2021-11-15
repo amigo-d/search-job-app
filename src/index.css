@@ -12,13 +12,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-    background-image: url("https://i.ytimg.com/vi/9XEh7arNSms/maxresdefault.jpg");
-    height: 100%;
+    /* background-image: url("https://i.ytimg.com/vi/9XEh7arNSms/maxresdefault.jpg"); */
     
     background:
     -webkit-linear-gradient(
-    rgba(255, 255, 255, 0.2),
-    rgba(255, 255, 255, 0.2)),
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.7)),
     url("https://i.ytimg.com/vi/9XEh7arNSms/maxresdefault.jpg");
     background-size: cover;
 }

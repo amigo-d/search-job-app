@@ -84,11 +84,6 @@ const Auth: React.FC = () => {
                         <Button type="submit" onClick={() => setIsRegForm(true)}>Register</Button>
                     </ButtonGroup>
                 </form>
-                <Box sx={{
-                    fontSize: 28,
-                }}>
-                    Welcome..
-                </Box>
             </Grid>
         </>
     )

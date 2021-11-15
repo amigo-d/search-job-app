@@ -12,7 +12,7 @@ const Header: React.FC = () => {
     return (
         <header className={styles.header}>
             <div className={styles["image-wrapper"]}>
-                <h3 className={styles.logo}>JOB HUNTER</h3>
+                <a href="/"><h3 className={styles.logo}>JOB HUNTER</h3></a>
             </div>
             <div className={styles.wrapper}>
                <Search />
