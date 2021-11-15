@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #363636;
+    padding: 1.2rem 3rem 0.6rem;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.header .wrapper {
+    margin-left: 16px;
+    border-radius: 30px;
+    background-color: white;
+    position: relative;
+}
+.logo {
+    color: white;
+    font-weight: 900;
+    font-size: 32px;
+}

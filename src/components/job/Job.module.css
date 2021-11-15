@@ -1,0 +1,32 @@
+.card {
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+    padding: 20px;
+    align-items: center;
+    border-radius: 5%;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 0.5);
+}
+.card:hover{
+    background-color: rgba(221, 221, 221, 0.4)
+}
+
+.card_info {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+.card_field{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.modalText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.element{
+    margin: 40px 0px;
+}
